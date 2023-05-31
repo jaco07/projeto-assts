@@ -1,0 +1,44 @@
+.box{
+    margin-left: 500px;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    border: 1px solid #000;
+    height: 400px;
+    width: 700px;
+    flex-direction: column;
+    gap: 20px;
+}
+input ::placeholder{
+    color: #0000;
+}
+input{
+    border-radius: 5px;
+    width: 400px;
+    border: 1.4px solid #000;
+    
+}
+.input{
+    
+    height: 120px;
+    width: 400px;
+    text-align: start;
+}
+
+button{
+    border-radius: 50px;
+    background-color: #fff;
+    width: 100px;
+}
+.btns{
+    
+    display: flex;
+    gap: 30px;
+   
+}
+.btnCancelar:hover{
+    background-color: #000;
+    color: #fff;
+}
